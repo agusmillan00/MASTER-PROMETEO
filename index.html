@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <title>Portfolio Agustín Millán</title>
+</head>
+<body>
+    <div class="headerResponsive">
+        <header>
+            <!-- Sección del menú de navegación -->
+            <nav class="menu">
+                <div class="perfil">
+                    <img id="autor" src="images/AgustinMillan.jpg" alt="AgustinMillan autor">
+                    <p>Agustín Millán 😉</p>
+                </div>
+                <div class="RRSS">
+                    <ul>
+                        <li><a href="https://www.instagram.com/agusmillan07/"><img src="images/Insta_logo.png" alt="dirrecionamiento a instagram"></a></li>
+                        <li><a href="https://x.com/agusmillan07"><img src="images/x_logo.png" alt="dirrecionamiento a X"></a></li>
+                        <li><a href="https://www.tiktok.com/@agusmillan07?lang=es"><img src="images/tiktok_logo.png" alt="dirrecionamiento a correo electrónico"></a></li>
+                    </ul>
+                </div>
+                <ul class="navLinks">
+                    <li><a href="index.html">INICIO</a></li>
+                    <span>|</span>
+                    <li><a href="pages/sobremi.html">Sobre Mi</a></li>
+                    <span>|</span>
+                    <li><a href="pages/futuro.html">Dónde quiero llegar</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <section class="mainContent">
+        <main>
+            <div class="presentacion">
+                <p id="inicio">Hola, Soy Agustín Millán</p>
+                <h1>Mi primer portfolio.</h1>
+                <p>Soy estudiante de FP ASIR en Prometeo en el programa ThePower FP y este es mi primer proyecto realizando un portfolio personal</p>
+            </div>
+        </main>
+    </section>
+    <section class="contenido">
+        <h3>Soy titulado en Técnico de Sistemas Microinformáticos y Redes</h3>
+        <p>Mis habilidades son:</p>
+        <ul class="habilidades">
+            <li class="habilidad ha1">
+                <h4>Ensamblaje de equipos</h4>
+                <img src="images/ensamblaje.png" alt="Imagen de un ordenador desmontado">
+            </li>
+            <li class="habilidad ha2">
+                <h4>Gestión de redes locales</h4>
+                <img src="images/redlocal.png" alt="Imagen de una red local">
+            </li>
+            <li class="habilidad ha3">
+                <h4>Gestión de aplicaciones web</h4>
+                <img src="images/appweb.png" alt="Ordenador con aplicaciones">
+            </li>
+            <li class="habilidad ha3">
+                <h4>Gestión de servicios en red</h4>
+                <img src="images/serviciosred.png" alt="Servidores conectados a ordenadores">
+            </li>
+            <li class="habilidad ha4">
+                <h4>Administración de sistemas operativos monopuestos</h4>
+                <img src="images/sistemasop.png" alt="Logo de windows y linux">
+            </li>
+            <li class="habilidad ha1">
+                <h4>Administración de sistemas operativos en red</h4>
+                <img src="images/sisred.jpg" alt="imagen de un ordenador desmontado">
+            </li>
+        </ul>
+    </section>
+    
+    <div class="footerResponsive">
+        <footer>
+            <p>Agustín Millán</p>
+            <span>||</span>
+            <p>Todos los derechos reservados©</p>
+            <span>||</span>
+            <label for="modal-toggle" class="btn-contacto" id="contacto">CONTACTO</label>
+        </footer>
+    </div>
+    <input type="checkbox" id="modal-toggle" hidden>
+    <div class="modal">
+        <div class="modal-content">
+            <label for="modal-toggle" class="close">&times;</label>
+            <h2>Formulario de Contacto</h2>
+            <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

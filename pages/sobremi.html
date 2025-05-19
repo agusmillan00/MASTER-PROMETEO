@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link rel="icon" type="image/jpg" href="/images/favicon.ico"/>
+    <title>Sobre Mi</title>
+</head>
+<body>
+   <div class="headerResponsive">
+        <header>
+            <!-- Sección del menú de navegación -->
+            <nav class="menu">
+                <div class="perfil">
+                    <img id="autor" src="/images/AgustinMillan.jpg" alt="AgustinMillan autor">
+                    <p>Agustín Millán 😉</p>
+                </div>
+                <div class="RRSS">
+                    <ul>
+                        <li><a href="https://www.instagram.com/agusmillan07/"><img src="/images/Insta_logo.png" alt="dirrecionamiento a instagram"></a></li>
+                        <li><a href="https://x.com/agusmillan07"><img src="/images/x_logo.png" alt="dirrecionamiento a X"></a></li>
+                        <li><a href="https://www.tiktok.com/@agusmillan07?lang=es"><img src="/images/tiktok_logo.png" alt="dirrecionamiento a correo electrónico"></a></li>
+                    </ul>
+                </div>
+                <ul class="navLinks">
+                    <li><a href="/index.html">INICIO</a></li>
+                    <span>|</span>
+                    <li><a href="sobremi.html">Sobre Mi</a></li>
+                    <span>|</span>
+                    <li><a href="futuro.html">Dónde quiero llegar</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+        <main class="contenidomain">
+            <h1>¿Quién soy?</h1>
+            <div class="descripcion">
+                <div class="sobremii">
+                    <p>¡Hola! Me llamo Agustín, tengo 23 años y soy de Cuenca. Desde pequeño siempre me ha apasionado la tecnología. 
+                    Recuerdo cómo me entretenía desmontando y montando ordenadores sin saber muy bien qué hacía… 
+                    a veces volvían a funcionar, otras no tanto, pero siempre aprendía algo nuevo.
+                    Con el tiempo, decidí convertir esa curiosidad en mi camino profesional. 
+                    Me titulé como Técnico en Sistemas Microinformáticos y Redes, y actualmente estoy estudiando 
+                    el ciclo de Administración de Sistemas Informáticos en Red (ASIR), avanzando cada día un poco más en el mundo 
+                    de la informática.
+                    Soy una persona ambiciosa, con ganas de crecer y mejorar constantemente. 
+                    Me esfuerzo por dar siempre lo mejor de mí y alcanzar los objetivos que me propongo.
+                    En mi tiempo libre me encanta hacer deporte, sobre todo jugar al pádel, salir con la moto de enduro
+                    y pasar buenos ratos con mis amigos.</p>
+                </div>
+                <div class="fotosobremi">
+                    <img src="/images/sobremi.jpg" alt="Foto de agustín Millán">
+                </div>
+            </div>
+        </main>
+        <div class="footerResponsive">
+        <footer>
+            <p>Agustín Millán</p>
+            <span>||</span>
+            <p>Todos los derechos reservados©</p>
+            <span>||</span>
+            <label for="modal-toggle" class="btn-contacto" id="contacto">CONTACTO</label>
+        </footer>
+    </div>
+    <input type="checkbox" id="modal-toggle" hidden>
+    <div class="modal">
+        <div class="modal-content">
+            <label for="modal-toggle" class="close">&times;</label>
+            <h2>Formulario de Contacto</h2>
+            <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
